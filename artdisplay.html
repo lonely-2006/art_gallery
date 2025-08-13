@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Gallery — My Art Gallery</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="container" style="padding-top:40px; padding-bottom:40px;">
+    <h2 class="text-center">Gallery</h2>
+    <p class="text-center" style="color:#555">Click "View details" to read more about any artwork.</p>
+
+    <div class="row g-4" style="margin-top:18px;">
+
+      <!-- Card 1 -->
+      <div class="col-md-4">
+        <div class="art-card">
+          <!-- If local img missing, browser will use placeholder via onerror -->
+          <img src="img/art1.jpg" alt="Starry Night"
+               onerror="this.src='https://via.placeholder.com/600x400?text=Art+1'">
+          <h5 style="margin-top:10px">Starry Night</h5>
+          <p style="margin-bottom:10px; color:#666">By Vincent van Gogh • 1889</p>
+          <a href="art1.html" class="btn btn-purple">View details</a>
+        </div>
+      </div>
+
+      <!-- Card 2 -->
+      <div class="col-md-4">
+        <div class="art-card">
+          <img src="img/art2.jpg" alt="Mona Lisa"
+               onerror="this.src='https://via.placeholder.com/600x400?text=Art+2'">
+          <h5 style="margin-top:10px">Mona Lisa</h5>
+          <p style="margin-bottom:10px; color:#666">By Leonardo da Vinci • 1503</p>
+          <a href="art2.html" class="btn btn-purple">View details</a>
+        </div>
+      </div>
+
+      <!-- Card 3 -->
+      <div class="col-md-4">
+        <div class="art-card">
+          <img src="img/art3.jpg" alt="The Scream"
+               onerror="this.src='https://via.placeholder.com/600x400?text=Art+3'">
+          <h5 style="margin-top:10px">The Scream</h5>
+          <p style="margin-bottom:10px; color:#666">By Edvard Munch • 1893</p>
+          <a href="art3.html" class="btn btn-purple">View details</a>
+        </div>
+      </div>
+
+      <!-- Card 4 -->
+      <div class="col-md-4">
+        <div class="art-card">
+          <img src="img/art4.jpg" alt="Girl with a Pearl Earring"
+               onerror="this.src='https://via.placeholder.com/600x400?text=Art+4'">
+          <h5 style="margin-top:10px">Girl with a Pearl Earring</h5>
+          <p style="margin-bottom:10px; color:#666">By Johannes Vermeer • 1665</p>
+          <a href="art4.html" class="btn btn-purple">View details</a>
+        </div>
+      </div>
+
+      <!-- Card 5 -->
+      <div class="col-md-4">
+        <div class="art-card">
+          <img src="img/art5.jpg" alt="Persistence of Memory"
+               onerror="this.src='https://via.placeholder.com/600x400?text=Art+5'">
+          <h5 style="margin-top:10px">The Persistence of Memory</h5>
+          <p style="margin-bottom:10px; color:#666">By Salvador Dalí • 1931</p>
+          <a href="art5.html" class="btn btn-purple">View details</a>
+        </div>
+      </div>
+
+    </div> <!-- row -->
+
+    <div style="margin-top:28px">
+      <a href="index.html" class="btn btn-secondary">Back to Home</a>
+    </div>
+
+  </div> <!-- container -->
+
+  <div class="footer-note">Tip: replace the img files inside /img to show your own pictures</div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
